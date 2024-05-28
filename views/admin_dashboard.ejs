@@ -1,0 +1,51 @@
+
+<%- include('./templates/header') %>
+   
+<div class=".body">
+    <div class="sidebar">
+        <ul>
+            <li><a href="/admin">Tổng quan</a></li>
+            <li><a href="/admin/product">Quản lý sản phẩm</a></li>
+            <li><a href="/admin/user">Quản lý tài khoản</a></li>
+            <li><a href="/admin/order">Quản lý đơn hàng</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div>
+            <h3>ĐƠN HÀNG</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Ma Don</th>
+                        <th>Tong Tiền</th>
+                        <th>Ngày Dat</th>
+                        <th>Trang Thai</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% let i=1; dsDH.forEach(dh => { %>
+                    <tr>
+                        <td><%= i++ %></td>
+                        <td>
+                            <a href="/admin/order/<%= dh.id%>">
+                                <%= dh.id%>
+                            </a>
+                        </td>
+                        <td><%= dh.totcal %></td>
+                        <td><%= dh.date %></td>
+                        <td><%= statusText[dh.status] %></td>
+                    </tr>
+                    <%  }) %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+ 
+    
+</div>
+    
+
+   
+
+   

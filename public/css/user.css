@@ -1,0 +1,79 @@
+
+.body_user{
+    padding: 20px;
+    /* background: #ddd; */
+}
+a{
+    text-decoration: none;
+}
+.user{
+    background-color: #fff;
+    width: 450px;
+    padding: 20px;
+    margin: 4rem auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:0px 0px 4px 2px rgba(0, 0, 0, 0.35);
+}
+h1{
+    margin-bottom: 20px;
+}
+.input, .btn {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    border:  1px solid #777;
+}
+.btn-submit{
+    background-color: #0171d3;
+    color:#fff;
+}
+label{
+    display: inline-block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+    
+}
+.btn-left{
+    float: left;
+}
+#btn-left{
+    float: left;
+}
+.link{
+    display: inline-block;
+    font-size: 14px;
+    color: #256cf8;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+.face{
+    background-color: #4267b2;
+    color: #fff;
+    margin-top: 20px;
+    background-image: url(../img/icons8-facebook.svg);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 5px;
+}
+.google{
+    color: #555;
+    background-image: url(../img/icons8-google.svg);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 5px;
+}
+.line{
+    display: inline-block;
+    border-bottom: solid 1px #aaa;
+    width: 46%;
+}
+.center{
+    color: #777;
+    margin: 0 8px;
+    font-size: 14px;
+}

@@ -1,0 +1,40 @@
+
+<%- include('./templates/header') %>
+   
+<div class=".body">
+    <div class="sidebar">
+        <ul>
+            <li><a href="/admin">Tổng quan</a></li>
+            <li><a href="/admin/product">Quản lý sản phẩm</a></li>
+            <li><a href="/admin/user">Quản lý tài khoản</a></li>
+            <li><a href="/admin/order">Quản lý đơn hàng</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div>
+            <h3>THÊM SẢN PHẨM</h3>
+            <form action="" method="post">
+                <label for="name">Tên sản phẩm</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="price">Giá bán</label>
+                <input type="number" name="price" id="price" >
+                <br> 
+                <label for="type">Loại</label>
+                <select name="type" id="type">
+                    <option value="drink">Đồ uống</option>
+                    <option value="topping">Topping</option>
+                </select>
+                <br>
+                <button type="submit">Thêm sản phẩm</button>
+            </form>
+        </div>
+    </div>
+ 
+    
+</div>
+    
+
+   
+
+   

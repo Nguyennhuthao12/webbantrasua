@@ -1,0 +1,69 @@
+        <!--Gio hàng -->
+        <%- include('./templates/header.ejs') %>
+        <section>
+            <div class="cart">
+        
+                <h1>GIỎ HÀNG</h1>
+                <table border="1">
+                  <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>San Pham</th>
+                        <th>Gia</th>
+                        <th>So Luong</th>
+                        <th>Thanh tien</th>
+                        <th>Thao tac</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% let i=0; let tongTien =0;  cart.products.forEach(sp => { %>
+                      <tr>
+                        <td><%= i+1 %></td>
+                        <td>
+                   
+                            <strong><%= sp.name %> </strong> <br>
+                            <img src="../public/img/<%= sp.image %>" alt="" width="50px"><br>
+                            <% let gia = sp.price; sp.topping.forEach(tp =>{ %>
+                                <p> + <%=tp.name %></p>
+                            <% gia += tp.price; }); tongTien += sp.quantity * gia %>
+                        </td>
+                        <td><%= gia %></td>
+                        <td>
+                            <a href="/cart/<%=i%>/down">-</a>
+                            <%= sp.quantity %>
+                            <a href="/cart/<%=i%>/up">+</a></td>
+
+                        <td><%= sp.quantity*gia %></td>
+                        <td><a href="/cart/<%=i%>/delete">Xoá</a></td>
+                      </tr>
+                    <% i++; }) %>
+                  </tbody>
+                
+
+                  
+                </table>
+                <div class="cart-summary">
+                    <div class="summary-item">
+                        <tr>
+                            <th colspan="4">Tổng Tiền:</th>
+                            <th><%= tongTien %></th>
+                            <th><a href="/cart/delete">Xoá Hết</a></th>
+                        </tr>
+                    </div>
+                    
+                </div>
+                <form action="" method="">
+                    <h2>THÔNG TIN MUA HÀNG</h2>
+                    <label for="name">Họ và tên:</label>
+                    <input class="cart_input" type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input class="cart_input" type="email" id="email" name="email" required>
+                    <label for="address">Địa chỉ:</label>
+                    <textarea id="address" name="address" rows="4" required></textarea>
+                    <button class="cart_button" type="submit"><a style="color: beige;" href="/cart/checkout">Đặt hàng</a></button>
+                </form>
+              </div>
+            
+        </section>
+      
+     <%- include('./templates/footer') %>  

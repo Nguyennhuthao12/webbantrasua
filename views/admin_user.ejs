@@ -1,0 +1,51 @@
+
+<%- include('./templates/header') %>
+   
+<div class=".body">
+    <div class="sidebar">
+        <ul>
+            <li><a href="/admin">Tổng quan</a></li>
+            <li><a href="/admin/product">Quản lý sản phẩm</a></li>
+            <li><a href="/admin/user">Quản lý tài khoản</a></li>
+            <li><a href="/admin/order">Quản lý đơn hàng</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div>
+            <h3>QUẢN LÝ TÀI KHOẢN</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mã</th>
+                        <!-- <th>Ảnh</th> -->
+                        <th>Tên</th>
+                        <th>Email</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% dsTK.forEach(tk => { %>
+                        <tr>
+                            <td><%=tk.id %></td>
+                            <!-- <td><img src="/public/img/<%=tk.image%>" width="50px" alt=""></td> -->
+                            <td><%=tk.name %></td>
+                            <td><%=tk.email %></td>
+                            <td>
+                                <a href="/admin/user/<%=tk.id %>/update">Sửa</a>
+                                <a href="/admin/user/<%=tk.id %>/delete">Xoá</a>
+                            </td>
+                        </tr>
+                    <% }) %>
+        
+                </tbody>
+            </table>
+        </div>
+    </div>
+ 
+    
+</div>
+    
+
+   
+
+   

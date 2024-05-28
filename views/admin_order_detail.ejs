@@ -1,0 +1,75 @@
+
+<%- include('./templates/header') %>
+   
+<div class=".body">
+    <div class="sidebar">
+        <ul>
+            <li><a href="/admin">Tổng quan</a></li>
+            <li><a href="/admin/product">Quản lý sản phẩm</a></li>
+            <li><a href="/admin/user">Quản lý tài khoản</a></li>
+            <li><a href="/admin/order">Quản lý đơn hàng</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div>
+            <h3>CHI TIẾT ĐƠN HÀNG #<%= order.id %></h3>
+            Người mua hàng: <%= order.idUser %> <br>
+            Ngày đặt hàng: <%= order.date %> <br>
+            Trang thái đơn hàng:
+            <form action="" method="post">
+                <select name="status" id="">
+                    <option value="order"<%= (order.status=='order')?'selected':'' %>>Đã tiếp nhận</option>
+                    <option value="shipping"  <%= (order.status=='shipping')?'selected':'' %>>Chờ giao hàng</option>
+                    <option value="success" <%= (order.status=='success')?'selected':'' %>>Giao hàng thành công</option>
+                    <option value="cancle" <%= (order.status=='cancle')?'selected':'' %>>Đơn hàng đã bị huỷ</option>
+                </select>
+                <button type="submit">Cập nhật</button>
+            </form>
+        </div>
+  
+        <table border="1">
+            <thead>
+              <tr>
+                  <th>STT</th>
+                  <th>San Pham</th>
+                  <th>Gia</th>
+                  <th>So Luong</th>
+                  <th>Thanh tien</th>
+              
+              </tr>
+            </thead>
+            <tbody>
+              <% let i=0; let tongTien =0;  order.products.forEach(sp => { %>
+                <tr>
+                  <td><%= i+1 %></td>
+                  <td>
+                      <strong><%= sp.name %> </strong> <br>
+                      <img src="../public/img/<%= sp.image %>" alt="" width="50px"><br>
+                      <% let gia = sp.price; sp.topping.forEach(tp =>{ %>
+                          <p> + <%=tp.name %></p>
+                      <% gia += tp.price; }); tongTien += sp.quantity * gia %>
+                  </td>
+                  <td><%= gia %></td>
+                  <td>
+                      <%= sp.quantity %>
+                  <td><%= sp.quantity*gia %></td>
+                </tr>
+              <% i++; }) %>
+            </tbody>
+            <div class="cart-summary">
+                <div class="summary-item">
+                    <tr>
+                        <th colspan="4">Tổng Tiền:</th>
+                        <th><%= tongTien %></th>
+                    
+                    </tr>
+                </div>
+                
+            </div>
+    </div>
+</div>
+    
+
+   
+
+   

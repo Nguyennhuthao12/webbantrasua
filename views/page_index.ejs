@@ -1,0 +1,66 @@
+
+<%- include('./templates/header') %>
+    <!--  banner  -->
+    <section class="slide__body">
+        <div class="container">
+            <div class="container_slide">
+                <div class="slides">
+                    <div class="item">
+                        <img src="https://phuclong.com.vn/uploads/page/96859c993fbc5a-bannerkm.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="https://phuclong.com.vn/uploads/page/96859c993fbc5a-bannerkm.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="https://phuclong.com.vn/uploads/page/96859c993fbc5a-bannerkm.jpg" alt="">
+                    </div>
+                </div>
+                <div class="next"><i class="fas fa-arrow-right"></i></div>
+                <div class="prev"><i class="fas fa-arrow-left"></i></div>
+            </div>
+        </div>
+    </section>
+    <!--  end banner -->
+    <!-- Products   -->
+    <section>
+        <div id="container_products">
+            <div class="productsBanChay">
+                <h3>Sản Phẩm Bán Chạy</h3>
+            </div>
+             <!-- Trong file product_search.ejs
+            <form action="/search" method="get">
+                <input type="text" name="search" placeholder="Nhập từ khóa tìm kiếm">
+                <button type="submit">Tìm kiếm</button>
+            </form> -->
+
+            <ul class="products">
+
+                <% dsSP.forEach(sp => { %>
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="product-1">
+                                <img src="public/img/<%=sp.image%>" alt="">
+                            </a>
+                            <a href="#" class="buy-now">Mua Ngay</a>
+                        </div>
+                        <div class="product-thongtin">
+                            <a href="" class="product-cat">Bags</a>
+                            <a href="/detail/<%=sp.id%>" class="poduct-name"><%=sp.name%></a>
+                            <div class="product-price"><%=sp.price%></div>
+                        </div>           
+                    </div>
+                </li>
+                <% }); %>
+            </ul>
+        
+        </div>
+    </section>
+    <!--  End Products -->
+   
+<%- include('./templates/footer') %>
+    
+
+   
+
+   

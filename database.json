@@ -1,0 +1,538 @@
+{
+  "products": [
+    {
+      "id": "806",
+      "name": "Trà sữa Oolong Nướng (Nóng)",
+      "image": "oolong-nuong-nong_948581_400x400.jpg",
+      "type": "drink",
+      "price": "45000",
+      "topping": [],
+      "quantity": 0
+    },
+    {
+      "id": "980",
+      "name": "Hồng Trà Sữa Nóng",
+      "image": "hong-tra-sua-nong_941687_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "671",
+      "name": "CloudTea Trà Xanh Tây Bắc",
+      "image": "1700837666_tra-sua-tra-xanh-tay-bac-ly-thuy-tinh_400x400.jpg",
+      "type": "drink",
+      "price": 69000
+    },
+    {
+      "id": "888",
+      "name": "CloudTea Oolong Berry",
+      "image": "1700837685_tra-sua-oolong-berry-ly-thuy-tinh_400x400.jpg",
+      "type": "drink",
+      "price": 69000
+    },
+    {
+      "id": "593",
+      "name": "Trà Sữa Oolong BLao",
+      "image": "1697442155_ts-oolong-blao_400x400.jpg",
+      "type": "drink",
+      "price": 39000
+    },
+    {
+      "id": "989",
+      "name": "Trà sữa Oolong Nướng Trân Châu",
+      "image": "1669736878_tra-sua-oolong-nuong-tran-chau_400x400.png",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "851",
+      "name": "Hồng Trà Sữa Trân Châu",
+      "image": "hong-tra-sua-tran-chau_326977_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "950",
+      "name": "Trà Sữa Mắc Ca Trân Châu",
+      "image": "tra-sua-mac-ca_377522_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "210",
+      "name": "Trà Đen Macchiato",
+      "image": "tra-den-matchiato_430281_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "808",
+      "name": "Trà Xanh Latte (Nóng)",
+      "image": "1699287050_tra-xanh-latte-nong_400x400.jpg",
+      "type": "drink",
+      "price": 45000
+    },
+    {
+      "id": "970",
+      "name": "Chocolate Nóng",
+      "image": "chocolatenong_949029_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "345",
+      "name": "CloudTea Trà Xanh Tây Bắc",
+      "image": "1700837666_tra-sua-tra-xanh-tay-bac-ly-thuy-tinh_400x400.jpg",
+      "type": "drink",
+      "price": 69000
+    },
+    {
+      "id": "770",
+      "name": "Trà Xanh Latte",
+      "image": "1699287044_tra-xanh-latte_400x400.jpg",
+      "type": "drink",
+      "price": 45000
+    },
+    {
+      "id": "783",
+      "name": "Frosty Trà Xanh",
+      "image": "1699287066_frosty-tra-xanh_400x400.jpg",
+      "type": "drink",
+      "price": 59000
+    },
+    {
+      "id": "585",
+      "name": "Trà Xanh Đường Đen",
+      "image": "1699287058_tra-xanh-duong-den_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "491",
+      "name": "Trà Xanh Espresso Marble",
+      "image": "1703471715_bg-vang-tra-xanh-espresso-marble_400x400.jpg",
+      "type": "drink",
+      "price": 49000
+    },
+    {
+      "id": "307",
+      "name": "Frosty Trà Xanh",
+      "image": "1699287066_frosty-tra-xanh_400x400.jpg",
+      "type": "drink",
+      "price": 59000
+    },
+    {
+      "id": "732",
+      "name": "Cà Phê Đen Nóng",
+      "image": "1639377816_ca-phe-den-nong_400x400.jpg",
+      "type": "drink",
+      "price": 39000
+    },
+    {
+      "id": "510",
+      "name": "Cà Phê Sữa Nóng",
+      "image": "1639377770_cfsua-nong_400x400.jpg",
+      "type": "drink",
+      "price": 39000
+    },
+    {
+      "id": "724",
+      "name": "Espresso Nóng",
+      "image": "espressoNong_612688_400x400.jpg",
+      "type": "drink",
+      "price": 45000
+    },
+    {
+      "id": "176",
+      "name": "Latte Nóng",
+      "image": "latte_851143_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "766",
+      "name": "Caramel Macchiato Nóng",
+      "image": "caramelmacchiatonong_168039_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "233",
+      "name": "Americano Nóng",
+      "image": "1636647328_arme-nong_400x400.jpg",
+      "type": "drink",
+      "price": 45000
+    },
+    {
+      "id": "273",
+      "name": "Cappuccino Nóng",
+      "image": "cappuccino_621532_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "188",
+      "name": "The Coffee House Sữa Đá",
+      "image": "1675355354_bg-tch-sua-da-no_400x400.jpg",
+      "type": "drink",
+      "price": 39000
+    },
+    {
+      "id": "727",
+      "name": "Cà Phê Đen Đá",
+      "image": "1639377798_ca-phe-den-da_400x400.jpg",
+      "type": "drink",
+      "price": 29000
+    },
+    {
+      "id": "886",
+      "name": "Cà Phê Sữa Đá",
+      "image": "1669736835_ca-phe-sua-da_400x400.png",
+      "type": "drink",
+      "price": 29000
+    },
+    {
+      "id": "900",
+      "name": "Bạc Sỉu",
+      "image": "1639377904_bac-siu_400x400.jpg",
+      "type": "drink",
+      "price": 29000
+    },
+    {
+      "id": "371",
+      "name": "Bạc Sỉu Nóng",
+      "image": "1639377926_bacsiunong_400x400.jpg",
+      "type": "drink",
+      "price": 39000
+    },
+    {
+      "id": "125",
+      "name": "Trà sữa Oolong Nướng (Nóng)",
+      "image": "oolong-nuong-nong_948581_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "838",
+      "name": "Hồng Trà Sữa Nóng",
+      "image": "hong-tra-sua-nong_941687_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "346",
+      "name": "Trà Xanh Latte (Nóng)",
+      "image": "1699287050_tra-xanh-latte-nong_400x400.jpg",
+      "type": "drink",
+      "price": 45000
+    },
+    {
+      "id": "355",
+      "name": "Chocolate Nóng",
+      "image": "chocolatenong_949029_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "967",
+      "name": "Trà Đào Cam Sả - Nóng",
+      "image": "tdcs-nong_288997_400x400.jpg",
+      "type": "drink",
+      "price": 59000
+    },
+    {
+      "id": "325",
+      "name": "Trà Hạt Sen - Nóng",
+      "image": "tra-sen-nong_025153_400x400.jpg",
+      "type": "drink",
+      "price": 59000
+    },
+    {
+      "id": "121",
+      "name": "Cà Phê Đen Nóng",
+      "image": "1639377816_ca-phe-den-nong_400x400.jpg",
+      "type": "drink",
+      "price": 39000
+    },
+    {
+      "id": "652",
+      "name": "Cà Phê Sữa Nóng",
+      "image": "1639377770_cfsua-nong_400x400.jpg",
+      "type": "drink",
+      "price": 39000
+    },
+    {
+      "id": "318",
+      "name": "Espresso Nóng",
+      "image": "espressoNong_612688_400x400.jpg",
+      "type": "drink",
+      "price": 45000
+    },
+    {
+      "id": "463",
+      "name": "Latte Nóng",
+      "image": "latte_851143_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "938",
+      "name": "Caramel Macchiato Nóng",
+      "image": "caramelmacchiatonong_168039_400x400.jpg",
+      "type": "drink",
+      "price": 55000
+    },
+    {
+      "id": "934",
+      "name": "Americano Nóng",
+      "image": "1636647328_arme-nong_400x400.jpg",
+      "type": "drink",
+      "price": 45000
+    },
+    {
+      "id": "908",
+      "name": "Trân châu trắng",
+      "image": "79611321-Tran-chau-trang.jpg",
+      "type": "topping",
+      "price": 10000
+    },
+    {
+      "id": "681",
+      "name": "Hạt Sen",
+      "image": "hat-sen.png",
+      "type": "topping",
+      "price": 10000
+    },
+    {
+      "id": "995",
+      "name": "Trái Vải",
+      "image": "bce5e3f814efcf41c2e6bbe6436d38d2.png",
+      "type": "topping",
+      "price": 10000
+    },
+    {
+      "id": "229",
+      "name": "Kem Phô Mai Macchiato",
+      "image": "lam-kem-cheese_0ccc1181d28749dda84c01dea2d9e087.jpg",
+      "type": "topping",
+      "price": 10000
+    },
+    {
+      "id": "774",
+      "name": "Trái Nhãn",
+      "image": "logan-dish-1-300x282.jpg",
+      "type": "topping",
+      "price": 10000
+    },
+    {
+      "id": "749",
+      "name": "Thạch Cà Phê",
+      "image": "thach-cafe-600x400.jpg",
+      "type": "topping",
+      "price": 10000
+    },
+    {
+      "id": "655",
+      "name": "Đào Miếng",
+      "image": "Loc-Phat.png",
+      "type": "topping",
+      "price": "10000",
+      "topping": [],
+      "quantity": 0
+    }
+  ],
+  "categories": [],
+  "users": [
+    {
+      "id": "1",
+      "email": "hao@gmail.com",
+      "password": "123",
+      "name": "Nguyễn Nhựt Hào",
+      "role": "User"
+    },
+    {
+      "id": "2",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "name": "Nhut Hao",
+      "role": "Admin"
+    }
+  ],
+  "orders": [
+    {
+      "id": "70a2",
+      "products": [
+        {
+          "topping": [
+            {
+              "id": "774",
+              "name": "Trái Nhãn",
+              "image": "logan-dish-1-300x282.jpg",
+              "type": "topping",
+              "price": 10000
+            },
+            {
+              "id": "749",
+              "name": "Thạch Cà Phê",
+              "image": "thach-cafe-600x400.jpg",
+              "type": "topping",
+              "price": 10000
+            }
+          ],
+          "quantity": 2,
+          "name": "Hồng Trà Sữa Nóng",
+          "price": 55000,
+          "type": "drink",
+          "image": "hong-tra-sua-nong_941687_400x400.jpg",
+          "id": "980"
+        }
+      ],
+      "idUser": "2",
+      "totcal": 0,
+      "date": "2024-04-07 23:43:58",
+      "status": "cart"
+    },
+    {
+      "id": "9111",
+      "products": [
+        {
+          "topping": [
+            {
+              "id": "774",
+              "name": "Trái Nhãn",
+              "image": "logan-dish-1-300x282.jpg",
+              "type": "topping",
+              "price": 10000
+            },
+            {
+              "id": "749",
+              "name": "Thạch Cà Phê",
+              "image": "thach-cafe-600x400.jpg",
+              "type": "topping",
+              "price": 10000
+            }
+          ],
+          "quantity": 3,
+          "name": "Hồng Trà Sữa Nóng",
+          "price": 55000,
+          "type": "drink",
+          "image": "hong-tra-sua-nong_941687_400x400.jpg",
+          "id": "980"
+        },
+        {
+          "topping": [
+            {
+              "id": "681",
+              "name": "Hạt Sen",
+              "image": "hat-sen.png",
+              "type": "topping",
+              "price": 10000
+            }
+          ],
+          "quantity": 1,
+          "name": "Hồng Trà Sữa Trân Châu",
+          "price": 55000,
+          "type": "drink",
+          "image": "hong-tra-sua-tran-chau_326977_400x400.jpg",
+          "id": "851"
+        }
+      ],
+      "idUser": "1",
+      "totcal": 180000,
+      "date": "2024-04-07 23:45:19",
+      "status": "order"
+    },
+    {
+      "id": "e241",
+      "products": [
+        {
+          "topping": [
+            {
+              "id": "681",
+              "name": "Hạt Sen",
+              "image": "hat-sen.png",
+              "type": "topping",
+              "price": 10000
+            }
+          ],
+          "quantity": 1,
+          "name": "Hồng Trà Sữa Trân Châu",
+          "price": 55000,
+          "type": "drink",
+          "image": "hong-tra-sua-tran-chau_326977_400x400.jpg",
+          "id": "851"
+        }
+      ],
+      "idUser": "1",
+      "totcal": 65000,
+      "date": "2024-04-07 23:46:43",
+      "status": "shipping"
+    },
+    {
+      "id": "3051",
+      "products": [
+        {
+          "topping": [
+            {
+              "id": "681",
+              "name": "Hạt Sen",
+              "image": "hat-sen.png",
+              "type": "topping",
+              "price": 10000
+            }
+          ],
+          "quantity": 1,
+          "name": "Hồng Trà Sữa Nóng",
+          "price": 55000,
+          "type": "drink",
+          "image": "hong-tra-sua-nong_941687_400x400.jpg",
+          "id": "980"
+        }
+      ],
+      "idUser": "1",
+      "totcal": 65000,
+      "date": "2024-04-08 09:25:59",
+      "status": "order"
+    },
+    {
+      "id": "ced5",
+      "products": [
+        {
+          "topping": [
+            {
+              "id": "908",
+              "name": "Trân châu trắng",
+              "image": "79611321-Tran-chau-trang.jpg",
+              "type": "topping",
+              "price": 10000
+            },
+            {
+              "id": "681",
+              "name": "Hạt Sen",
+              "image": "hat-sen.png",
+              "type": "topping",
+              "price": 10000
+            },
+            {
+              "id": "995",
+              "name": "Trái Vải",
+              "image": "bce5e3f814efcf41c2e6bbe6436d38d2.png",
+              "type": "topping",
+              "price": 10000
+            }
+          ],
+          "quantity": 3,
+          "name": "Trà Sữa Oolong BLao",
+          "price": 39000,
+          "type": "drink",
+          "image": "1697442155_ts-oolong-blao_400x400.jpg",
+          "id": "593"
+        }
+      ],
+      "idUser": "1",
+      "totcal": 0,
+      "date": "2024-04-08 12:28:27",
+      "status": "cart"
+    }
+  ]
+}

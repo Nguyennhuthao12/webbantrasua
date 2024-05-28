@@ -1,0 +1,40 @@
+
+<%- include('./templates/header') %>
+   
+<div class=".body">
+    <div class="sidebar">
+        <ul>
+            <li><a href="/admin">Tổng quan</a></li>
+            <li><a href="/admin/product">Quản lý sản phẩm</a></li>
+            <li><a href="/admin/user">Quản lý tài khoản</a></li>
+            <li><a href="/admin/order">Quản lý đơn hàng</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div>
+            <h3>CẬP NHẬT SẢN PHẨM #<%=product.id%></h3>
+            <form action="" method="post">
+                <label for="name">Tên sản phẩm</label>
+                <input type="text" name="name" id="name" value="<%=product.name%>">
+                <br>
+                <label for="price">Giá bán</label>
+                <input type="number" name="price" id="price" value="<%=product.price%>">
+                <br> 
+                <label for="type">Loại</label>
+                <select name="type" id="type">
+                    <option value="drink"<%=(product.type=='drink')?'selected':''%>>Đồ uống</option>
+                    <option value="topping"<%=(product.type=='topping')?'selected':''%>>Topping</option>
+                </select>
+                <br>
+                <button type="submit">Cập nhật</button>
+            </form>
+        </div>
+    </div>
+ 
+    
+</div>
+    
+
+   
+
+   

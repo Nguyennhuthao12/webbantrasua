@@ -1,0 +1,54 @@
+
+<%- include('./templates/header') %>
+   
+<div class=".body">
+    <div class="sidebar">
+        <ul>
+            <li><a href="/admin">Tổng quan</a></li>
+            <li><a href="/admin/product">Quản lý sản phẩm</a></li>
+            <li><a href="/admin/user">Quản lý tài khoản</a></li>
+            <li><a href="/admin/order">Quản lý đơn hàng</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div>
+            <h3>QUẢN LÝ SẢN PHẨM</h3>
+            <a href="/admin/product/add">Thêm sản phẩm</a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mã</th>
+                        <th>Ảnh</th>
+                        <th>Tên</th>
+                        <th>Giá</th>
+                        <th>Loại</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% dsSP.forEach(sp => { %>
+                        <tr>
+                            <td><%=sp.id %></td>
+                            <td><img src="/public/img/<%=sp.image%>" width="50px" alt=""></td>
+                            <td><%=sp.name %></td>
+                            <td><%=sp.price %></td>
+                            <td><%=sp.type %></td>
+                            <td>
+                                <a href="/admin/product/<%=sp.id %>/update">Sửa</a>
+                                <a href="/admin/product/<%=sp.id %>/delete">Xoá</a>
+                            </td>
+                        </tr>
+                    <% }) %>
+        
+                </tbody>
+            </table>
+        </div>
+    </div>
+ 
+    
+</div>
+    
+
+   
+
+   
